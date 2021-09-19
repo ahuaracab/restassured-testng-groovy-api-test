@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Gradle suite" duration-ms="3917" started-at="2021-09-18T06:49:22 COT" finished-at="2021-09-18T06:49:26 COT">
+    <groups>
+      <group name="Smoke">
+        <method signature="Articles.createAndDeleteArticle()[pri:0, instance:Articles@10c3fb8f]" name="createAndDeleteArticle" class="Articles"/>
+        <method signature="Books.createAndDeleteBook()[pri:0, instance:Books@175a5ce8]" name="createAndDeleteBook" class="Books"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="Gradle test" duration-ms="3917" started-at="2021-09-18T06:49:22 COT" finished-at="2021-09-18T06:49:26 COT">
+      <class name="Articles">
+        <test-method status="PASS" signature="setUpRestAssured()[pri:0, instance:Articles@10c3fb8f]" name="setUpRestAssured" is-config="true" duration-ms="197" started-at="2021-09-18T06:49:22 COT" finished-at="2021-09-18T06:49:22 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpRestAssured -->
+        <test-method status="PASS" signature="articlesSchema()[pri:0, instance:Articles@10c3fb8f]" name="articlesSchema" duration-ms="1082" started-at="2021-09-18T06:49:22 COT" finished-at="2021-09-18T06:49:23 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- articlesSchema -->
+        <test-method status="PASS" signature="createAndDeleteArticle()[pri:0, instance:Articles@10c3fb8f]" name="createAndDeleteArticle" duration-ms="842" started-at="2021-09-18T06:49:23 COT" finished-at="2021-09-18T06:49:24 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAndDeleteArticle -->
+        <test-method status="PASS" signature="deleteNoneExistentArticleFileMessage()[pri:0, instance:Articles@10c3fb8f]" name="deleteNoneExistentArticleFileMessage" duration-ms="217" started-at="2021-09-18T06:49:24 COT" finished-at="2021-09-18T06:49:24 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteNoneExistentArticleFileMessage -->
+        <test-method status="PASS" signature="getArticlesReturnList()[pri:0, instance:Articles@10c3fb8f]" name="getArticlesReturnList" duration-ms="232" started-at="2021-09-18T06:49:24 COT" finished-at="2021-09-18T06:49:24 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getArticlesReturnList -->
+      </class> <!-- Articles -->
+      <class name="Books">
+        <test-method status="PASS" signature="setUpRestAssured()[pri:0, instance:Books@175a5ce8]" name="setUpRestAssured" is-config="true" duration-ms="1" started-at="2021-09-18T06:49:24 COT" finished-at="2021-09-18T06:49:24 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpRestAssured -->
+        <test-method status="PASS" signature="booksSchema()[pri:0, instance:Books@175a5ce8]" name="booksSchema" duration-ms="332" started-at="2021-09-18T06:49:24 COT" finished-at="2021-09-18T06:49:25 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- booksSchema -->
+        <test-method status="PASS" signature="createAndDeleteBook()[pri:0, instance:Books@175a5ce8]" name="createAndDeleteBook" duration-ms="442" started-at="2021-09-18T06:49:25 COT" finished-at="2021-09-18T06:49:25 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAndDeleteBook -->
+        <test-method status="PASS" signature="deleteNoneExistentBookFileMessage()[pri:0, instance:Books@175a5ce8]" name="deleteNoneExistentBookFileMessage" duration-ms="216" started-at="2021-09-18T06:49:25 COT" finished-at="2021-09-18T06:49:25 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteNoneExistentBookFileMessage -->
+        <test-method status="PASS" signature="getBooks()[pri:0, instance:Books@175a5ce8]" name="getBooks" duration-ms="335" started-at="2021-09-18T06:49:25 COT" finished-at="2021-09-18T06:49:26 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBooks -->
+      </class> <!-- Books -->
+    </test> <!-- Gradle test -->
+  </suite> <!-- Gradle suite -->
+</testng-results>

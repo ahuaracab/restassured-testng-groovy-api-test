@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Articles" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-09-18T11:49:22" hostname="DESKTOP-VJ6FGVP" time="2.375">
+  <properties/>
+  <testcase name="articlesSchema" classname="Articles" time="1.082"/>
+  <testcase name="createAndDeleteArticle" classname="Articles" time="0.842"/>
+  <testcase name="deleteNoneExistentArticleFileMessage" classname="Articles" time="0.217"/>
+  <testcase name="getArticlesReturnList" classname="Articles" time="0.232"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

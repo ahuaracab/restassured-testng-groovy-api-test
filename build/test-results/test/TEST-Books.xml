@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Books" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-09-18T11:49:24" hostname="DESKTOP-VJ6FGVP" time="1.326">
+  <properties/>
+  <testcase name="booksSchema" classname="Books" time="0.332"/>
+  <testcase name="createAndDeleteBook" classname="Books" time="0.442"/>
+  <testcase name="deleteNoneExistentBookFileMessage" classname="Books" time="0.216"/>
+  <testcase name="getBooks" classname="Books" time="0.335"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
